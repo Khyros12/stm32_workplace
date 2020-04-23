@@ -270,6 +270,8 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 
 	}
 	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_14);
+	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_15);
 }
 /* USER CODE END 4 */
 
